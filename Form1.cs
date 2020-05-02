@@ -16,5 +16,11 @@ namespace TestingGithub
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.BackColor = Color.Green;
+            MessageBox.Show("Now the form is green");
+        }
     }
 }
